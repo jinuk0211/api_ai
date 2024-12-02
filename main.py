@@ -72,7 +72,7 @@ async def send_item():
     max_new_tokens=256,)
 
 
-    return {"message": log_list
+    return {"message":','.join(log_list)},
             "sumamry": outputs}
 
 # import os
