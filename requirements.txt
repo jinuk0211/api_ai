@@ -1,0 +1,7 @@
+flash-attn --no-build-isolation
+qwen-vl-utils
+transformers==4.45.2
+accelerate --upgrade
+opencv-python
+huggingface_hub
+fastapi[all]
